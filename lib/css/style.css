@@ -40,6 +40,47 @@
 /* section2 */
 
 /* section3 */
+.split{
+	position: absolute;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	}
+	.split .screen{
+		position: relative;
+		flex-grow: 1;
+		transition: 1s;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+	}
+	.screen:nth-child(1)
+	{
+		background-color: #fff;
+	}
+	.screen:nth-child(2)
+	{
+		background-color: #30336b;
+	}
+	.split .screen .cardsp
+	{
+		max-width: 300px;
+		text-align: center;
+		transition: 0.5s;
+	}
+	.split .screen .cardsp .imgbx{
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.split .screen .cardsp .imgbx img{
+		max-width: 100%;
+	}
 
 /* section3 */
 /* section4 */
